@@ -1,0 +1,26 @@
+This program will convert windows 3.0 icons to OS/2 format.  It is my 
+first working version and 'just grew', so it isn't very pretty.  It also
+isn't very robust.  Error checking is nonexistant.  Although it has the
+beginnings of the code needed to convert .ico files that contain multiple
+icons, it doesn't do it yet.  This is partly because I haven't found any
+windows icon files that contain multiple icons.  It also won't work with 
+those dll and exe files that contain gobs of icons.
+
+Having said that, what will it do?  It will convert .ICO files that contain
+a single icon.  That accounts for all of the .ICO files that I have seen 
+in the MSWIN forum.  The resulting OS/2 icon will have the same resolution
+as the original icon.  Generally, this is 32 x 32.  If you bring up the 
+icon in ICONEDIT, it will inform you that the icon did not have a 
+device independent form and that one has been created for you.  I have 
+been deleting the weird windows format then and saving the result.  This
+isn't necessary though to use the icon.
+
+With a bit of luck I'll figure out what to do with the XOR mask and fix 
+that up in a week or two.
+
+Anyway, I'm tossing this out for whoever wants to use it.  If you give it
+to someone else, please give them the source code as well.  The usual 
+disclaimers apply:  This program isn't guarenteed to do anything at all.
+
+I can be reached on Compu$erve as Kevin Nickerson [70020,633].
+
